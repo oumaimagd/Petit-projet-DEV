@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda&family=Saira+Condensed&display=swap");
+
+body {
+  background-image: url("https://th.bing.com/th/id/R.8a5ead8f9a46ff49598a689ab30888fa?rik=eUuO38kipQPBdg&pid=ImgRaw&r=0&sres=1&sresct=1");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px -200px;
+  margin: 0;
+  padding: 0;
+  font-family: "Merienda", cursive;
+}
+
+h1 {
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 70px;
+  text-align: center;
+  background-clip: text;
+  background: -webkit-linear-gradient(90deg, #b2dfdb, #000, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+#hero {
+  text-align: center;
+  color: #fff;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  margin: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+.product:hover {
+  transform: scale(1.1);
+}
+
+.product img {
+  width: 200px;
+  height: 170px;
+  border-radius: 10px;
+}
+
+.quantity {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.unitPrice,
+.price {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(188, 183, 183, 0.8);
+  position: relative;
+  z-index: 2;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 40px;
+  background: transparent;
+  border: 0.2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(43, 42, 42, 0.5);
+  margin-top: 20px;
+  border-radius: 40px;
+  margin-right: 20px;
+  align-items: center;
+  transform: translate(70px, -50%);
+}
+
+.btn-cont button {
+  outline: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  background: #dbdbdb;
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-cont button:hover {
+  background-color: #555;
+}
+
+.del button {
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: large;
+  color: #424242;
+}
+
+.del button:hover {
+  color: #b71c1c;
+}
+
+.like i.liked {
+  color: red;
+}
+
+#purchase-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #dbdbdb;
+  color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#purchase-button:hover {
+  background-color: #555;
+}
+#product-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.product-info {
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.product-info img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-info img:hover {
+  transform: scale(1.1);
+}
+
+.product-info h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.product-info .quantity,
+.product-info .unitPrice,
+.product-info .price {
+  margin: 5px 0;
+}
+
+.btn-cont button {
+  cursor: pointer;
+  font-size: 1em;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #dbdbdb;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-cont button:hover {
+  background-color: #555;
+  color: #fff;
+}
+.login-container {
+  text-align: center;
+  margin: 200px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#login-form {
+  margin-top: 20px;
+}
+
+#error-message {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #dbdbdb;
+  color: blue;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
